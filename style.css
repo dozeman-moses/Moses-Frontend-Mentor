@@ -1,0 +1,49 @@
+body {
+    background-color: #f9f9fb;
+}
+
+.container {
+    max-width: 80%;
+    margin: 150px auto;
+    display: flex;
+}
+
+.main-header h1{
+    color: #ff7a00;
+    font-family: 'poppins', sans-serif;
+}
+
+.navlinks {
+    width: 80%;
+}
+
+.navlinks ul {
+    list-style: none;
+    background-color:  #06F;
+    padding: 14px 16px;
+    font-family: 'poppins', sans-serif;
+    border-radius: 20px;
+}
+
+.navlinks li {
+    padding-bottom: 20px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.navlinks a:hover{
+    color: #ff7a00;
+}
+
+@media screen and (min-width: 375px){
+    .container {
+        flex-direction: column;
+        position: relative;
+        left: 40px;
+    }
+}
+
