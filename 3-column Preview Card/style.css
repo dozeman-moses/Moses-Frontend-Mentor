@@ -1,0 +1,94 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    max-width: 80%;
+    margin: 150px auto;
+}
+
+.sedans-row1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+}
+
+.sedans-row1 h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+}
+
+.sedans-row1 p {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.sedans-row1 button {
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    border-radius: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs-row2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+.suvs-row2 h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+}
+
+.suvs-row2 p {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.suvs-row2 button {
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    border-radius: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    background-color: rgb(242, 242, 242);
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-row3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+}
+
+.luxury-row3 h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+}
+
+.luxury-row3 p {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.luxury-row3 button {
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    border-radius: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        display: flex;
+    }
+}
+
+

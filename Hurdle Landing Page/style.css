@@ -1,0 +1,176 @@
+body {
+    background-image: url(huddlebg.png);
+    background-color: hsl(257, 40%, 49%);
+}
+
+.container {
+    margin: 30px auto 0px 50px;
+}
+
+.main-article {
+    margin-top: 105px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.huddle-about {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+}
+
+.huddle-about h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.huddle-about h2 {
+    color: white;
+    position: relative;
+    top: -10px;
+    font-size: 30px;
+}
+
+.huddle-about p {
+    color: white;
+    position: relative;
+    top: -10px;
+}
+
+.huddle-about button {
+    border: none;
+    outline: none;
+    width: 30%;
+    padding: 20px 22px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: hsl(300, 69%, 71%);
+    transition: all 0.5s;
+}
+
+.huddle-about button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.icon {
+  padding: 10px;
+  position: relative;
+  left: 1105px;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+  margin-right: 10px;
+}
+
+.icon:hover {
+    border: 2px solid hsl(257, 40%, 49%);
+}
+
+.icon:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    body {
+        background-image: url(bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .huddle-logo img{
+        width: 180px;
+        position: relative;
+        left: -30px;
+    }
+
+    .main-article {
+       display: flex;
+       flex-direction: column;
+       position: relative;
+       left: -30px;
+    }
+
+    .huddle-mockup img {
+        max-width: 100%;
+    }
+
+    .huddle-about {
+        position: relative;
+        top: -30px;
+    }
+
+    .huddle-about h1, h2, p{
+        text-align: center;
+    }
+
+    .huddle-about p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .huddle-about p .p-1 {
+        position: relative;
+        left: 60px;
+    }
+
+    .huddle-about p .p-2 {
+        position: relative;
+        top: 20px;
+        left: -240px;
+    }
+
+    .huddle-about p .p-3 {
+        position: relative;
+        left: 5px;
+    }
+
+    .huddle-about p .p-4 {
+        position: relative;
+        top: -20px;
+        left: 220px;
+    }
+
+    .huddle-about p .p-5 {
+        position: relative;
+        left: -100px;
+    }
+
+    .huddle-about p .p-6 {
+        position: relative;
+        top: -21px;
+        left: 140px;
+    }
+
+    .huddle-about p .p-7 {
+        position: relative;
+        left: -160px;
+    }
+
+    .huddle-about p .p-8 {
+        position: relative;
+        top: -21px;
+        left: 105px;
+    }
+
+    .huddle-about p .p-9 {
+        position: relative;
+        left: -110px;
+    }
+
+    .huddle-about button {
+        position: relative;
+        left: 170px;
+    }
+
+    .icon {
+        left: 0px;
+        position: relative;
+        left: 150px;
+    }
+
+}

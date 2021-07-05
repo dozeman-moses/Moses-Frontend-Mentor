@@ -1,0 +1,67 @@
+body {
+	background-color: hsl(185, 75%, 39%);
+}
+
+.bg-1 {
+	position: relative;
+	top: -800px;
+	left: -300px;
+	z-index: -1;
+}
+
+.bg-2 {
+	position: relative;
+	top: -700px;
+	float: right;
+	z-index: -1;
+}
+.container {
+	max-width: 80%;
+	margin: 150px auto;
+	text-align: center;
+	width: 350px;
+	height: 420px;
+	border-radius: 0px 0px 20px 20px;
+	background-color: white;
+}
+
+.card {
+	position: relative;
+}
+
+.victor {
+	position: relative;
+	left: -5px;
+	top: -60px;
+	border: 6px solid white;
+	border-radius: 50%;
+}
+
+.profile-content {
+	position: relative;
+	top: -60px;
+}
+
+.profile-name h1{
+	/* font-family: 'Kumbh Sans', sans-serif; */
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 18px;
+}
+
+.profile-name p {
+	font-family: 'Kumbh Sans', sans-serif;
+	color: hsl(0, 0%, 59%);
+	border-bottom: 1px solid hsl(0, 0%, 59%);
+	padding-bottom: 10px;
+}
+
+.profile-stats {
+	display: flex;
+	justify-content: space-around;
+}
+
+.profile-stats h1 {
+    font-family: 'Kumbh Sans', sans-serif;
+	font-size: 18px;
+}
+
